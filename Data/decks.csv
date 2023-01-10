@@ -1,3 +1,21 @@
-id,name,id_cards,last_update
-1,Surfin,"[181, 252, 13, 185, 294, 112, 163, 62, 107, 8, 101, 264]",2022-06-24
-2,Leader Ramp,"[252, 40, 196, 145, 294, 112, 36, 107, 131, 8, 129, 184]",2022-06-24
+name,slugCards,last_update
+Seracle Surfer,"[Iceman, Scorpion, Armor, SilverSurfer, Bishop, Brood, MrFantastic, Cosmo, Killmonger, Polaris, Maximus, Sera]",2023-01-09
+Shuri Zero,"[Sunspot, Zero, Armor, Zabu, Shuri, Wong, TyphoidMary, Taskmaster, Vision, RedSkull, ArnimZola, SheHulk]",2023-01-09
+Good Cards Priority,"[Sunspot, Scorpion, Armor, Cosmo, Lizard, Maximus, ShangChi, WhiteQueen, Leech, Aero, Leader, Magneto]",2023-01-09
+Zabu Darkhawk,"[Bast, Korg, AdamWarlock, BlackWidow, Zabu, Darkhawk, AbsorbingMan, ShangChi, SpiderMan, Crystal, MoonGirl, Rockslide]",2023-01-09
+Negative Surfer,"[Bast, AdamWarlock, Psylocke, Mystique, SilverSurfer, Bishop, Rogue, Wolfsbane, Brood, MrFantastic, MrNegative, IronMan]",2023-01-09
+Electro Ramp,"[Sunspot, Psylocke, Scorpion, Armor, Electro, Wave, Leech, Aero, Leader, DrDoom, Odin, Magneto]",2023-01-09
+She-Hulk Baero,"[Hood, SquirrelGirl, Yondu, BuckyBarnes, Carnage, Killmonger, Wave, Deathlok, Aero, Leader, SheHulk, Death]",2023-01-09
+Patriot Surfer,"[Wasp, AntMan, MistyKnight, Shocker, Mystique, SilverSurfer, Patriot, Brood, Cyclops, BlueMarvel, Sera, Ultron]",2023-01-09
+Galactus Electro,"[Sunspot, Psylocke, Scorpion, Electro, Wave, Maximus, ShangChi, Leech, DoctorOctopus, Galactus, AmericaChavez, Death]",2023-01-09
+Thanos Zoo,"[Hood, Iceman, Quinjet, Angela, Beast, Carnage, Okoye, Bishop, SpiderMan, BlueMarvel, Valkyrie, Thanos]",2023-01-09
+Zerocula,"[AntMan, SquirrelGirl, Sunspot, Iceman, Zero, Armor, Lizard, Cosmo, Dracula, KaZar, RedSkull, Infinaut]",2023-01-09
+Cerebro 2,"[Iceman, Korg, MBaku, Nightcrawler, Goose, Scorpion, Cerebro, Mystique, Brood, MrFantastic, Storm, BlueMarvel]",2023-01-09
+Zabu control,"[Nightcrawler, Titania, Daredevil, Scorpion, Zabu, AbsorbingMan, ShangChi, SpiderMan, Enchantress, MoonGirl, WhiteQueen, SheHulk]",2023-01-09
+Handsize Good Cards,"[Agent13, Iceman, Nightcrawler, Quinjet, Scorpion, Sentinel, MrFantastic, MoonGirl, WhiteQueen, DevilDinosaur, Aero, Leader]",2023-01-09
+Wong On Reveal,"[Iceman, EbonyMaw, Psylocke, Ironheart, Wolfsbane, Storm, Wong, WhiteTiger, BlackPanther, ArnimZola, DrDoom, Odin]",2023-01-09
+Lockjaw On Reveal,"[Sunspot, Nightcrawler, Quinjet, Psylocke, Armor, Lockjaw, Vision, Thanos, AmericaChavez, SheHulk, Magneto, Infinaut]",2023-01-09
+Hela Discard,"[Zabu, LadySif, SwordMaster, Jubilee, Sandman, GhostRider, Hellcow, CaptainMarvel, Hela, Magneto, Infinaut, Death]",2023-01-09
+Ongoing Destroyer,"[AntMan, EbonyMaw, Goose, InvisibleWoman, Armor, MrFantastic, Cosmo, Sandman, Klaw, RedSkull, Spectrum, Destroyer]",2023-01-09
+Discard Lockjaw,"[Morbius, Swarm, ColleenWing, Wolfsbane, Lockjaw, MoonKnight, LadySif, SwordMaster, Dracula, Hellcow, Apocalypse, AmericaChavez]",2023-01-09
+Sera Control,"[Nova, Angela, Carnage, MrSinister, Armor, Mysterio, Brood, Killmonger, ShangChi, Enchantress, Valkyrie, Sera]",2023-01-09
