@@ -29,6 +29,8 @@ firefoxOptions.add_argument('--disable-gpu')
 
 firefoxService = Service(GeckoDriverManager().install())
 
+driver = webdriver.Firefox(service=firefoxService, options=firefoxOptions)
+
 def addCard(deck, card):
     firstDefaultCard = deck[deck.name == 'Default']
     if not firstDefaultCard.empty:
@@ -36,7 +38,7 @@ def addCard(deck, card):
 
 def checkIfUpToDate():
     upToDate = True
-    driver = webdriver.Firefox(service=firefoxService, options=firefoxOptions)
+
     driver.get(MARVELSNAPZONE_PATCH_NOTES_URL)
     soup = BeautifulSoup(driver.page_source, 'html.parser')
 

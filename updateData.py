@@ -9,7 +9,7 @@ from threading import Thread
 from datetime import datetime
 from selenium import webdriver
 
-from helper import firefoxOptions, firefoxService
+from helper import driver
 
 MARVELSNAPZONE_URL = 'https://marvelsnapzone.com/cards'
 MARVELSNAPZONE_API_URL = 'https://marvelsnapzone.com/getinfo/?searchtype=cards&searchcardstype=true'
@@ -28,7 +28,6 @@ def getCards():
 def scrap(progressBar = None):
     print("[%s] %s" % (datetime.now(), "Starting scraping ..."))
 
-    driver = webdriver.Firefox(service=firefoxService, options=firefoxOptions)
     driver.get(MARVELSNAPZONE_URL)
     soup = BeautifulSoup(driver.page_source, 'html.parser')
 
