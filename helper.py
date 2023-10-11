@@ -148,7 +148,7 @@ def drawDecks(topDecks, cards, cardHeigh, currentDeck = None, isDisplayAbility =
                 st.markdown("""---""")
 
 def loadDecks():
-    return pd.read_csv("data/decks.csv")
+    return pd.read_csv("./Data/decks.csv")
 
 def resetDeck():
     st.session_state.deckName = ""
@@ -172,7 +172,7 @@ def saveDeck():
     if (len(set(slugCards)) == len(slugCards)):
         allDeck = pd.concat([allDeck, pd.DataFrame([[st.session_state.deckName, slugCards, 0]], columns=allDeck.columns)])
 
-    allDeck.to_csv("data/decks.csv", index=False)
+    allDeck.to_csv("./Data/decks.csv", index=False)
     resetDeck()
 
 def selectionDeck(decks, currentDeck, deckNumber):
@@ -203,5 +203,5 @@ def validDeck():
 
     decks = decks.sort_values(by=['score'], ascending=False)
     
-    decks.to_csv("data/decks.csv", index=False)
+    decks.to_csv("./Data/decks.csv", index=False)
     resetDeck()
