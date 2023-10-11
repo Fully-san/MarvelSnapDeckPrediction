@@ -138,7 +138,12 @@ def createCardsCSV(cards, dirName='Data'):
         name = parseName(card["name"])
         art = card["url"],
         ability = parseAbility(card["ability"])
-        slug = re.sub("[ '\-]","",name)
+        slug = slug.replace(" the ", " The ")
+        slug = re.sub("[ \-]","", name)
+        if "'" in slug:
+            index = slug.index("'")
+            slug = slug[:index]  + slug[index+1].upper() + slug[index+2:]
+            slug = re.sub("[']","", slug)
         
         cards_df = pd.concat([cards_df, pd.DataFrame([[name, art[0], ability, slug]], columns=cards_df.columns)])
     
