@@ -137,8 +137,9 @@ def createCardsCSV(cards, dirName='Data'):
         name = parseName(card["name"])
         art = card["url"],
         ability = parseAbility(card["ability"])
+        slug = name
         slug = slug.replace(" the ", " The ")
-        slug = re.sub("[ \-]","", name)
+        slug = re.sub("[ \-]","", slug)
         if "'" in slug:
             index = slug.index("'")
             slug = slug[:index]  + slug[index+1].upper() + slug[index+2:]
