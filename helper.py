@@ -64,7 +64,7 @@ def createEmptyDeck():
 
 def createSession():
     if 'cards' not in st.session_state:
-        st.session_state.cards = pd.read_csv("data/cards.csv")
+        st.session_state.cards = pd.read_csv("./data/cards.csv")
 
     if 'defaultCard' not in st.session_state:
         st.session_state.defaultCard = pd.DataFrame({
