@@ -1,0 +1,9 @@
+streamlit==1.26.0
+click
+st_pages
+st_clickable_images
+bs4
+selenium
+webdriver_manager
+git.repo
+pillow
