@@ -54,7 +54,8 @@ if not st.session_state['upToDate']:
 
     commitFiles = ['Data/cards.csv', 'Data/lastVersion.txt']
     for card in cards:
-        name =  re.sub("[ '\-]","", parseName(card["name"]))
+        name = re.sub(" the "," The ", parseName(card["name"]))
+        name = re.sub("[ '\-]","", name)
         path = 'Data/Arts/Regular/' + name + '.Webp'
         if os.path.isfile(path):
             commitFiles.append(path)
