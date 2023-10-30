@@ -9,7 +9,7 @@ Agent Coulson,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/
 Alioth,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/alioth.webp,On reveal: Destroy all enemy cards played here this turn. (including unrevealed cards),Alioth
 America Chavez,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/america-chavez.webp,Starts on the bottom of your deck. Draw this on turn 6.,AmericaChavez
 Angel,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/angel.webp,"When one of your cards is destroyed, this flies out of your deck to replace it.",Angel
-Angela,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/angela.webp,"After you play a card here, +2 power.",Angela
+Angela,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/angela.webp,"After you play a card here, +1 power.",Angela
 Ant-Man,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/ant-man.webp,"Ongoing: If you have 3 other cards here, +3 power.",AntMan
 Apocalypse,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/apocalypse.webp,"When you discard this from your hand, put it back with +4 power.",Apocalypse
 Armor,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/armor.webp,Ongoing: Cards at this location can't be destroyed.,Armor
@@ -66,7 +66,7 @@ Ebony Maw,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/medi
 Echo,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/echo.webp,"After your opponent plays an ongoing card here, remove its abilities.",Echo
 Electro,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/electro.webp,On reveal: +1 max energy. Ongoing: You can only play 1 card a turn.,Electro
 Elektra,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/elektra.webp,On reveal: Destroy a random enemy 1-cost card at this location.,Elektra
-Elsa Bloodstone,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/elsa-bloodstone.webp,"If you play another card to fill a location, give it +3 power.",ElsaBloodstone
+Elsa Bloodstone,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/elsa-bloodstone.webp,"If you play another card to fill a location, give it +2 power.",ElsaBloodstone
 Enchantress,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/enchantress.webp,On reveal: Remove the abilities from all ongoing cards at this location.,Enchantress
 Evolved Abomination,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/abomination.webp,Costs 1 less for each enemy card in play that's afflicted with negative power.,EvolvedAbomination
 Evolved Cyclops,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/cyclops.webp,"When you end a turn with unspent energy, afflict 2 random enemies here with -1 power.",EvolvedCyclops
