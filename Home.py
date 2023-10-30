@@ -30,8 +30,7 @@ if not st.session_state['upToDate']:
     deleteFilesInDirectory("Data/Arts/Regular")
     deleteFilesInDirectory("Data/Arts/Fade")
 
-    with st.status("Update Data...", expanded=True) as status:
-        
+    with st.status("Update Data...", expanded=True) as status: 
         getCardProgressBarText = "Retrieving cards..."
         getCardProgressBar = st.progress(0, text=getCardProgressBarText)
         cards = getCards()
