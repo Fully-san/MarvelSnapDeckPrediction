@@ -33,6 +33,8 @@ def scrap(progressBar = None):
 
     links = soup.findAll('a', {'class': 'simple-card'})
 
+    print(links)
+
     characters = []
     for link in links:
         character = {
