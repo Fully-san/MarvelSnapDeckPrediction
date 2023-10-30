@@ -56,7 +56,7 @@ def checkIfUpToDate():
             f.truncate()
             f.write(articleId)
 
-    return True # upToDate
+    return upToDate
 
 def createEmptyDeck():
     deck = pd.DataFrame(columns=st.session_state.defaultCard.columns)
