@@ -10,7 +10,7 @@ Alioth,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/c
 America Chavez,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/america-chavez.webp,Starts on the bottom of your deck. Draw this on turn 6.,AmericaChavez
 Angel,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/angel.webp,"When one of your cards is destroyed, this flies out of your deck to replace it.",Angel
 Angela,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/angela.webp,"After you play a card here, +1 power.",Angela
-Ant-Man,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/ant-man.webp,"Ongoing: If you have 3 other cards here, +3 power.",AntMan
+Ant-Man,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/ant-man.webp,"Ongoing: If your side of this location is full, +3 power.",AntMan
 Apocalypse,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/apocalypse.webp,"When you discard this from your hand, put it back with +4 power.",Apocalypse
 Armor,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/armor.webp,Ongoing: Cards at this location can't be destroyed.,Armor
 Arnim Zola,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/arnim-zola.webp,On reveal: Destroy a random friendly card here. Add copies of it to the other locations.,ArnimZola
@@ -18,6 +18,7 @@ Attuma,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/c
 Baron Mordo,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/baron-mordo.webp,On reveal: Your opponent draws a card. Set its cost to 6.,BaronMordo
 Bast,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/bast.webp,On reveal: Set the power of all cards in your hand to 3.,Bast
 Beast,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/beast.webp,On reveal: Return your other cards at this location to your hand. They cost 1 less.,Beast
+Beta Ray Bill,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/beta-ray-bill.webp,On reveal: Shuffle stormbreaker into your deck.,BetaRayBill
 Bishop,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/bishop.webp,"After you play a card, this gains +1 power.",Bishop
 Black Bolt,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/black-bolt.webp,On reveal: Discard the lowest-cost card from your opponent's hand.,BlackBolt
 Black Cat,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/black-cat.webp,"If this is in your hand after the turn, discard it.",BlackCat
@@ -30,6 +31,7 @@ Brood,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/ca
 Broodling,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/broodling.webp,No ability,Broodling
 Bucky Barnes,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/bucky-barnes.webp,"When this is destroyed, replace it with the winter soldier.",BuckyBarnes
 Cable,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/cable.webp,On reveal: Draw the top card of your opponent's deck.,Cable
+Caiera,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/caiera.webp,Ongoing: Your 1 and 6-cost cards can't be destroyed.,Caiera
 Captain America,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/captain-america.webp,Ongoing: Your other cards at this location have +1 power.,CaptainAmerica
 Captain Marvel,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/captain-marvel.webp,"At the end of the game, move to a location that wins you the game. (if possible)",CaptainMarvel
 Carnage,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/carnage.webp,On reveal: Destroy your other cards here. +2 power for each destroyed.,Carnage
@@ -86,6 +88,7 @@ Ghost Rider,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/me
 Ghost-Spider,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/ghost-spider.webp,On reveal: The last card you played moves here.,GhostSpider
 Giganto,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/giganto.webp,You can only play this at the left location.,Giganto
 Goose,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/goose.webp,"Ongoing: Nobody can play cards that cost 4, 5, or 6 at this location.",Goose
+Grand Master,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/grand-master.webp,On reveal: Move one of your other on reveal cards here to the middle location. Its ability happens again.,GrandMaster
 Green Goblin,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/green-goblin.webp,On reveal: Switch sides.,GreenGoblin
 Groot,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/groot.webp,"On reveal: If your opponent played a card here this turn, +2 power.",Groot
 Havok,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/havok.webp,"After each turn, you lose 1 max energy and this gains +3 power.",Havok
@@ -95,6 +98,7 @@ Heimdall,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media
 Hela,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/hela.webp,On reveal: Resurrect all cards you discarded from your hand to random locations.,Hela
 Helicarrier,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/helicarrier.webp,"When you discard this from your hand, add 3 random cards to your hand.",Helicarrier
 Hellcow,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/hellcow.webp,On reveal: Discard 2 cards from your hand.,Hellcow
+Hercules,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/hercules.webp,"The first time another card moves here each turn, move it to another location.",Hercules
 High Evolutionary,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/high-evolutionary.webp,"At the start of the game, unlock the potential of your cards with no abilities.",HighEvolutionary
 Hit Monkey,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/hit-monkey.webp,On reveal: Gain +2 power for each other card you played this turn.,HitMonkey
 Hobgoblin,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/hobgoblin.webp,On reveal: Switch sides.,Hobgoblin
@@ -143,6 +147,7 @@ Martyr,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/c
 Master Mold,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/master-mold.webp,On reveal: Add 2 sentinel to your opponent's hand.,MasterMold
 Maximus,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/maximus.webp,On reveal: Your opponent draws 2 cards.,Maximus
 Medusa,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/medusa.webp,"On reveal: If this is at the middle location, +3 power.",Medusa
+Miek,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/miek.webp,"After each turn, if you discarded any cards, gain +1 power for each and move.",Miek
 Miles Morales,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/miles-morales.webp,"If a card moved last turn, this costs 1.",MilesMorales
 Mind Stone,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/mind-stone.webp,On reveal: Draw 2 stones from your deck.,MindStone
 Mirage,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/mirage.webp,On reveal: Copy the lowest-cost card in your opponent's hand into your hand. Give it +2 power.,Mirage
@@ -151,7 +156,7 @@ Mister Negative,https://marvelsnapzone.com/wp-content/themes/blocksy-child/asset
 Mister Sinister,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/mister-sinister.webp,On reveal: Add a sinister clone to this location with the same power.,MisterSinister
 Misty Knight,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/misty-knight.webp,No ability,MistyKnight
 Mjölnir,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/mjolnir.webp,On reveal: Give thor +6 power.,Mjölnir
-Mobius M. Mobius,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/mobius-m-mobius.webp,Ongoing: Your costs can't be increased. Your opponent's costs can't be reduced.,MobiusM.Mobius
+Mobius M. Mobius,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/mobius-m-mobius.webp,"On reveal: Until the end of next turn, your costs can't be increased and your opponent's costs can't be reduced.",MobiusM.Mobius
 Modok,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/modok.webp,On reveal: Discard your hand.,Modok
 Mojo,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/mojo.webp,"Ongoing: If both sides here are full, +6 power.",Mojo
 Monster,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/monster.webp,No ability,Monster
@@ -166,7 +171,7 @@ Mystique,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media
 Nakia,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/nakia.webp,On reveal: Give all cards in your hand +1 power.,Nakia
 Namor,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/namor.webp,Ongoing: +5 power if this is your only card here.,Namor
 Nebula,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/nebula.webp,No ability,Nebula
-Negasonic Teenage Warhead,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/negasonic-teenage-warhead.webp,"After any card is played here, destroy this card and that card.",NegasonicTeenageWarhead
+Negasonic Teenage Warhead,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/negasonic-teenage-warhead.webp,No ability,NegasonicTeenageWarhead
 Nick Fury,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/nick-fury.webp,On reveal: Add 3 random 6-cost cards to your hand.,NickFury
 Nico Minoru,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/nico-minoru.webp,"On reveal: After you play your next card, cast a spell. (the spell changes each turn.)",NicoMinoru
 Nico Minoru Spell 01,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/nico-minoru-spell-01.webp,"On reveal: After you play your next card, it becomes a demon.",NicoMinoruSpell01
@@ -226,6 +231,7 @@ Silk,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/car
 Silver Samurai,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/silver-samurai.webp,On reveal: Each player discards the lowest-power card from their hand.,SilverSamurai
 Silver Surfer,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/silver-surfer.webp,On reveal: Give your other 3-cost cards +2 power.,SilverSurfer
 Sinister Clone,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/sinister-clone.webp,No ability,SinisterClone
+Skaar,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/skaar.webp,Costs 2 less for each of your cards that has 10 or more power.,Skaar
 Snowguard,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/snowguard.webp,On reveal: Add the hawk and bear auroras to your hand.,Snowguard
 Snowguard Bear,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/snowguard-bear.webp,On reveal: Trigger the effect of this location.,SnowguardBear
 Snowguard Hawk,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/snowguard-hawk.webp,On reveal: Ignore all location abilities until the end of next turn (or the game).,SnowguardHawk
@@ -235,7 +241,7 @@ Space Stone,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/me
 Spectrum,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/spectrum.webp,On reveal: Give your ongoing cards +2 power.,Spectrum
 Spider-Ham,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/spider-ham.webp,"On reveal: Transform the leftmost card in your opponent's hand into a pig, keeping its power and cost.",SpiderHam
 Spider-Man,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/spider-man.webp,On reveal: Move to another location and pull an enemy card from here to there.,SpiderMan
-Spider-Man 2099,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/spider-man-2099.webp,"The first time this moves to a location, destroy an enemy card there.",SpiderMan2099
+Spider-Man 2099,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/spider-man-2099.webp,"The first time this moves to any location, destroy an enemy card there.",SpiderMan2099
 Spider-Woman,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/spider-woman.webp,On reveal: Afflict all enemy cards here with -1 power.,SpiderWoman
 Squirrel,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/squirrel.webp,No ability,Squirrel
 Squirrel Girl,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/squirrel-girl.webp,On reveal: Add a 1-power squirrel to each other location.,SquirrelGirl
@@ -243,6 +249,7 @@ Star-Lord,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/medi
 Stature,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/stature.webp,Costs 1 if your opponent discarded a card from their hand this game.,Stature
 Stegron,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/stegron.webp,On reveal: Move an enemy card from here to another location.,Stegron
 Storm,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/storm.webp,On reveal: Flood this location. Next turn is the last turn cards can be played here.,Storm
+Stormbreaker,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/stormbreaker.webp,On reveal: Double beta ray bill's power.,Stormbreaker
 Strong Guy,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/strong-guy.webp,"Ongoing: If your hand is empty, +6 power.",StrongGuy
 Sunspot,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/sunspot.webp,"After each turn, gain +1 power for each unspent energy.",Sunspot
 Super Skrull,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/super-skrull.webp,Ongoing: Has the ongoing effects of all enemy cards.,SuperSkrull
@@ -273,7 +280,8 @@ Vision,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/c
 Vulture,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/vulture.webp,"When this card moves, +5 power.",Vulture
 Warpath,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/warpath.webp,"Ongoing: If any of your locations are empty, +4 power.",Warpath
 Wasp,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/wasp.webp,No ability,Wasp
-Wave,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/wave.webp,On reveal: All cards cost 4 until the end of next turn.,Wave
+Wave,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/wave.webp,On reveal: All cards cost a maximum of 4 until the end of next turn.,Wave
+Werewolf By Night,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/werewolf-by-night.webp,"After you play an on reveal card at another location, move there and gain +2 power.",WerewolfByNight
 White Queen,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/white-queen.webp,On reveal: Copy the highest-cost card in your opponent's hand into your hand.,WhiteQueen
 White Tiger,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/white-tiger.webp,On reveal: Add a 8-power tiger to another location.,WhiteTiger
 Widow'S Bite,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/widows-bite.webp,"While this is in your hand, you can't draw cards.",WidowSBite
