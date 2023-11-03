@@ -9,23 +9,16 @@ from threading import Thread
 from datetime import datetime
 from selenium import webdriver
 
-from helper import driver
+from helper import driver, deleteFilesInDirectory
 
 MARVELSNAPZONE_URL = 'https://marvelsnapzone.com/cards'
 MARVELSNAPZONE_API_URL = 'https://marvelsnapzone.com/getinfo/?searchtype=cards&searchcardstype=true'
 
-def getCards():
-    print("[%s] %s" % (datetime.now(), "Starting retrieving cards ..."))
-    response = requests.get(MARVELSNAPZONE_API_URL)
+def scrap(progressBar = None, deleteFile = False, cardList = None):
+    if deleteFile:
+        deleteFilesInDirectory("Data/Arts/Regular", cardList)
+        deleteFilesInDirectory("Data/Arts/Fade", cardList)
 
-    if response.status_code == 200:
-        json_data = response.json()
-        success = json_data.get("success", {})
-        return success.get("cards", [])
-    else:
-        print(f"Error: Request failed with status code {response.status_code}")
-
-def scrap(progressBar = None):
     print("[%s] %s" % (datetime.now(), "Starting scraping ..."))
 
     driver.get(MARVELSNAPZONE_URL)
@@ -33,12 +26,10 @@ def scrap(progressBar = None):
 
     links = soup.findAll('a', {'class': 'simple-card'})
 
-    print(links)
-
     characters = []
     for link in links:
         character = {
-            'name': link['data-name'].title(),
+            'name': re.sub("[ '\-]","", link['data-name'].title()),
             'ability': capitalize(BeautifulSoup(link['data-ability'], 'html.parser').text),
             'url': link['data-src'].split('?')[0],
             'status': link['data-status']
@@ -46,7 +37,13 @@ def scrap(progressBar = None):
         characters.append(character)
         print("[%s] %s" % (datetime.now(), f"Found {character['name']}"))
 
-    imageUrls = [character['url'] for character in characters]
+    imageUrls = []
+    for character in characters:
+        if cardList and character['name'] not in cardList:
+            continue
+
+        imageUrls.append(character['url'])
+    
     downloadImages(imageUrls, progressBar=progressBar)
 
     return characters
@@ -140,8 +137,6 @@ def createCardsCSV(cards, dirName='Data'):
         art = card["url"],
         ability = parseAbility(card["ability"])
         slug = name
-        slug = slug.replace(" the ", " The ")
-        slug = re.sub("[ \-]","", slug)
         if "'" in slug:
             index = slug.index("'")
             slug = slug[:index]  + slug[index+1].upper() + slug[index+2:]

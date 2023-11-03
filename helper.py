@@ -36,27 +36,36 @@ def addCard(deck, card):
     if not firstDefaultCard.empty:
         deck.iloc[firstDefaultCard.index[0]] = card
 
-def checkIfUpToDate():
-    upToDate = True
+def getUpdatedCards():
+    updatedCards = []
 
     driver.get(MARVELSNAPZONE_PATCH_NOTES_URL)
     soup = BeautifulSoup(driver.page_source, 'html.parser')
 
     articles = soup.findAll('article', {'class': 'entry-card'})
-
-    articleId = articles[0]['id'].split('-')[1]
+    article = articles[0]
+    articleId = article['id'].split('-')[1]
 
     with open('Data/lastVersion.txt', 'r+') as f:
         lastArticleID = f.read()
 
-        upToDate = articleId == lastArticleID
+        if articleId == lastArticleID:
+            return []
+        
+        f.seek(0)
+        f.truncate()
+        f.write(articleId)
 
-        if not upToDate:
-            f.seek(0)
-            f.truncate()
-            f.write(articleId)
+    driver.get(article.contents[0]['href'].title())
+    soup = BeautifulSoup(driver.page_source, 'html.parser')
 
-    return False #upToDate
+    links = soup.findAll('a', {'class': 'cardblock'})
+    for link in links:
+        name = re.sub("[ '\-]","", link.contents[1].contents[1]['title'].title())
+        if name not in updatedCards:
+            updatedCards.append(name)
+
+    return updatedCards
 
 def createEmptyDeck():
     deck = pd.DataFrame(columns=st.session_state.defaultCard.columns)
@@ -89,14 +98,15 @@ def createSession():
     # if 'deckName' not in st.session_state:
     #     st.session_state.deckName = ""
 
-def deleteFilesInDirectory(directoryPath):
+def deleteFilesInDirectory(directoryPath, files=None):
     try:
-        files = os.listdir(directoryPath)
+        if not files:
+            files = os.listdir(directoryPath)
         for file in files:
             filePath = os.path.join(directoryPath, file)
             if os.path.isfile(filePath):
                 os.remove(filePath)
-        print("All files deleted successfully.")
+            print("Delete", file)
     except OSError:
         print("Error occurred while deleting files.")
 
@@ -119,7 +129,6 @@ def drawDecks(topDecks, cards, cardHeigh, currentDeck = None, isDisplayAbility =
             titles = []
             
             for cardSlug in deck['slugCards'][1:-1].split(','):
-
                 cardBuffer = cards[cards['slug'] == cardSlug]
 
                 if not cardBuffer.empty:

@@ -1,13 +1,23 @@
 import re
+from updateData import *
 
-slugs = []
-for name in ["JefftheBabyLandShark", "M'baku", "UatutheWatcher", "Widow'sBite"]:
-    slug = re.sub("[ \-]","", name)
-    slug = slug.replace("the", "The")
-    if "'" in slug:
-        index = slug.index("'")
-        slug = slug[:index]  + slug[index+1].upper() + slug[index+2:]
-        slug = re.sub("[']","", slug)
-    slugs.append(slug)
+MARVELSNAPZONE_PATCH_NOTES_URL = 'https://marvelsnapzone.com/news/patch-notes/'
 
-print(slugs)
+driver.get(MARVELSNAPZONE_PATCH_NOTES_URL)
+soup = BeautifulSoup(driver.page_source, 'html.parser')
+
+articles = soup.findAll('article', {'class': 'entry-card'})
+link = articles[0].contents[0]['href'].title()
+
+driver.get(link)
+soup = BeautifulSoup(driver.page_source, 'html.parser')
+
+updatedCards = []
+
+links = soup.findAll('a', {'class': 'cardblock'})
+for link in links:
+    name = re.sub("[ '\-]","", link.contents[1].contents[1]['title'].title())
+    if name not in updatedCards:
+        updatedCards.append(name)
+
+print(updatedCards)

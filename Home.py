@@ -3,8 +3,8 @@ import os
 import time
 import streamlit as st
 from git.repo import Repo
-from helper import TITLE_APPLICATION, MARVEL_ICON, DECK_CREATION_ICON, DECK_PREDICTION_ICON, HOME_ICON, checkIfUpToDate, deleteFilesInDirectory
-from updateData import scrap, parseName, getCards, createCardsCSV
+from helper import TITLE_APPLICATION, MARVEL_ICON, DECK_CREATION_ICON, DECK_PREDICTION_ICON, HOME_ICON, getUpdatedCards
+from updateData import scrap, createCardsCSV
 from st_pages import Page, show_pages
 
 repoPath = '/Users/Fully/Documents/TCG/MarvelSnap/MarvelSnapDeckPrediction'
@@ -22,45 +22,33 @@ show_pages(
 
 st.write('Welcome')
 
-if 'upToDate' not in st.session_state:
-    with st.spinner('Checking data updates...'):
-        st.session_state['upToDate'] = checkIfUpToDate()
+with st.spinner('Checking data updates...'):
+    updatedCards = getUpdatedCards()
 
-if not st.session_state['upToDate']:
-    deleteFilesInDirectory("Data/Arts/Regular")
-    deleteFilesInDirectory("Data/Arts/Fade")
-
+if updatedCards:
     with st.status("Update Data...", expanded=True) as status: 
-        getCardProgressBarText = "Retrieving cards..."
-        getCardProgressBar = st.progress(0, text=getCardProgressBarText)
-        cards = getCards()
-        getCardProgressBar.progress(100, text=getCardProgressBarText)
-
         charactersProgressBarText = "Downloading card images..."
         charactersProgressBar = st.progress(0, text=charactersProgressBarText)
         charactersProgressBar.text = charactersProgressBarText
-        characters = scrap(charactersProgressBar)
+        characters = scrap(progressBar=charactersProgressBar, deleteFile=True, cardList=updatedCards)
 
         createCardsProgressBarText = "Writing cards..."
         createCardsProgressBar = st.progress(0, text=createCardsProgressBarText)
         createCardsCSV(characters)
         createCardsProgressBar.progress(100, text=charactersProgressBarText)
 
-        getCardProgressBar.empty()
         charactersProgressBar.empty()
         createCardsProgressBar.empty()
 
         status.update(label="Update complete!", state="complete", expanded=False)
 
     commitFiles = ['Data/cards.csv', 'Data/lastVersion.txt']
-    for card in cards:
-        name = re.sub(" the "," The ", parseName(card["name"]))
-        name = re.sub("[ '\-]","", name)
-        path = 'Data/Arts/Regular/' + name + '.Webp'
+    for card in updatedCards:
+        path = 'Data/Arts/Regular/' + card + '.Webp'
         if os.path.isfile(path):
             commitFiles.append(path)
 
-        path = 'Data/Arts/Fade/' + name + '.Webp'
+        path = 'Data/Arts/Fade/' + card + '.Webp'
         if os.path.isfile(path):
             commitFiles.append(path)
 
@@ -72,8 +60,6 @@ if not st.session_state['upToDate']:
 
     origin = repo.remotes[0]
     origin.push()
-
-    st.session_state['upToDate'] = True
 
 show_pages(
     [
