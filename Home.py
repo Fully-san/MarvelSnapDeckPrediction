@@ -53,7 +53,8 @@ if updatedCards:
             commitFiles.append(path)
 
     # Auto commit
-    repo = Repo('https://github.com/Fully-san/MarvelSnapDeckPrediction')
+    repo = Repo()
+    #repo = Repo('https://github.com/Fully-san/MarvelSnapDeckPrediction')
 
     repo.index.add(commitFiles)
     repo.index.commit('Update new cards')

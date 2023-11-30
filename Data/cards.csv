@@ -10,6 +10,7 @@ Alioth,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/c
 AmericaChavez,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/america-chavez.webp,Starts on the bottom of your deck. Draw this on turn 6.,AmericaChavez
 Angel,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/angel.webp,"When one of your cards is destroyed, this flies out of your deck to replace it.",Angel
 Angela,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/angela.webp,"After you play a card here, +1 power.",Angela
+Annihilus,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/annihilus.webp,On reveal: Your cards with 0 or less power switch sides. Destroy those that can't.,Annihilus
 AntMan,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/ant-man.webp,"Ongoing: If your side of this location is full, +3 power.",AntMan
 Apocalypse,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/apocalypse.webp,"When you discard this from your hand, put it back with +4 power.",Apocalypse
 Armor,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/armor.webp,Ongoing: Cards at this location can't be destroyed.,Armor
@@ -87,6 +88,7 @@ Ghost,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/ca
 GhostRider,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/ghost-rider.webp,On reveal: Bring back one of your discarded cards to this location.,GhostRider
 GhostSpider,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/ghost-spider.webp,On reveal: The last card you played moves here.,GhostSpider
 Giganto,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/giganto.webp,You can only play this at the left location.,Giganto
+Gladiator,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/gladiator.webp,"On reveal: Add a card from your opponent's deck to their side of this location. If it has less power, destroy it.",Gladiator
 Goose,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/goose.webp,"Ongoing: Nobody can play cards that cost 4, 5, or 6 at this location.",Goose
 GrandMaster,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/grand-master.webp,On reveal: Move one of your other on reveal cards here to the middle location. Its ability happens again.,GrandMaster
 GreenGoblin,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/green-goblin.webp,On reveal: Switch sides.,GreenGoblin
@@ -156,7 +158,7 @@ MisterNegative,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets
 MisterSinister,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/mister-sinister.webp,On reveal: Add a sinister clone to this location with the same power.,MisterSinister
 MistyKnight,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/misty-knight.webp,No ability,MistyKnight
 Mjölnir,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/mjolnir.webp,On reveal: Give thor +6 power.,Mjölnir
-MobiusM.Mobius,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/mobius-m-mobius.webp,"On reveal: Until the end of next turn, your costs can't be increased and your opponent's costs can't be reduced.",MobiusM.Mobius
+MobiusM.Mobius,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/mobius-m-mobius.webp,Ongoing: Your costs can't be increased. Your opponent's costs can't be reduced.,MobiusM.Mobius
 Modok,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/modok.webp,On reveal: Discard your hand.,Modok
 Mojo,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/mojo.webp,"Ongoing: If both sides here are full, +6 power.",Mojo
 Monster,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/monster.webp,No ability,Monster
@@ -164,6 +166,7 @@ MoonGirl,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media
 MoonKnight,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/moon-knight.webp,On reveal: Discard a card from each player's hand.,MoonKnight
 Morbius,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/morbius.webp,Ongoing: +2 power for each time you discarded a card this game.,Morbius
 Morph,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/morph.webp,On reveal: Become a copy of a random card in your opponent's hand.,Morph
+Ms.Marvel,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/ms-marvel.webp,Ongoing: Adjacent locations where your cards have unique costs have +5 power.,Ms.Marvel
 MultipleMan,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/multiple-man.webp,"When this moves, add a copy to the old location.",MultipleMan
 Mysterio,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/mysterio.webp,"As you play this, play illusions to other locations. Disguise this as an illusion until the game ends.",Mysterio
 Mysterio?,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/mysterio-.webp,No ability,Mysterio?
@@ -222,7 +225,7 @@ Sentinel,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media
 Sentry,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/sentry.webp,You can't play this at the right location. On reveal: Add a -10 power void to the right location.,Sentry
 Sera,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/sera.webp,Ongoing: Cards in your hand cost 1 less. (minimum 1),Sera
 ShadowKing,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/shadow-king.webp,On reveal: Set all cards here to their original base power.,ShadowKing
-ShangChi,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/shang-chi.webp,On reveal: Destroy all enemy cards at this location that have 9 or more power.,ShangChi
+ShangChi,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/shang-chi.webp,On reveal: Destroy all enemy cards at this location that have 10 or more power.,ShangChi
 Shanna,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/shanna.webp,On reveal: Add a random 1-cost card to each location.,Shanna
 SheHulk,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/she-hulk.webp,Costs 1 less for each unspent energy last turn.,SheHulk
 Shocker,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/shocker.webp,No ability,Shocker
@@ -278,7 +281,7 @@ Vibranium,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/medi
 Viper,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/viper.webp,On reveal: One of your other cards here switches sides.,Viper
 Vision,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/vision.webp,You can move this each turn.,Vision
 Vulture,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/vulture.webp,"When this card moves, +5 power.",Vulture
-Warpath,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/warpath.webp,"Ongoing: If any of your locations are empty, +4 power.",Warpath
+Warpath,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/warpath.webp,"Ongoing: If any of your locations are empty, +5 power.",Warpath
 Wasp,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/wasp.webp,No ability,Wasp
 Wave,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/wave.webp,On reveal: All cards cost a maximum of 4 until the end of next turn.,Wave
 WerewolfByNight,https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/werewolf-by-night.webp,"After you play an on reveal card at another location, move there and gain +2 power.",WerewolfByNight
