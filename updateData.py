@@ -31,7 +31,7 @@ def scrap(progressBar = None, deleteFile = False, cardList = None):
         character = {
             'name': re.sub("[ '\-]","", link['data-name'].title()),
             'ability': capitalize(BeautifulSoup(link['data-ability'], 'html.parser').text),
-            'url': link['data-src'].split('?')[0],
+            'url': link['data-src'],#.split('?')[0],
             'status': link['data-status']
         }
         characters.append(character)
@@ -42,7 +42,7 @@ def scrap(progressBar = None, deleteFile = False, cardList = None):
         if cardList and character['name'] not in cardList:
             continue
 
-        imageUrls.append(character['url'])
+        imageUrls.append(character['url'].replace("-the-","-The-"))
     
     downloadImages(imageUrls, progressBar=progressBar)
 
@@ -80,7 +80,7 @@ def downloadImages(urls, dirName='Data/Arts', progressBar = None):
 def downloadImage(url, dirName):
     print("[%s] %s" % (datetime.now(), f"Download image from {url}"))
     try:
-        response = requests.get(url)
+        response = requests.get(url.lower())
         response.raise_for_status()
         fileName = re.sub("[ '\-]","", url.rsplit('/', 1)[-1].rsplit('?', 1)[0].title())
         filePath = os.path.join(dirName + '/Regular', fileName)
@@ -136,7 +136,7 @@ def createCardsCSV(cards, dirName='Data'):
         name = parseName(card["name"])
         art = card["url"],
         ability = parseAbility(card["ability"])
-        slug = name
+        slug = name.replace(" the ", " The ")
         if "'" in slug:
             index = slug.index("'")
             slug = slug[:index]  + slug[index+1].upper() + slug[index+2:]

@@ -42,9 +42,10 @@ def getUpdatedCards():
     driver.get(MARVELSNAPZONE_PATCH_NOTES_URL)
     soup = BeautifulSoup(driver.page_source, 'html.parser')
 
-    articles = soup.findAll('article', {'class': 'entry-card'})
-    article = articles[0]
-    articleId = article['id'].split('-')[1]
+    article = soup.find('article', {'class': 'entry-card'})
+
+    # l'élément unique de l'article est stocké dans une classe en deuxième position
+    articleId = article['class'][1].split('-')[1]
 
     with open('Data/lastVersion.txt', 'r+') as f:
         lastArticleID = f.read()

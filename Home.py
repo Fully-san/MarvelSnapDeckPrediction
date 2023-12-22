@@ -30,7 +30,7 @@ if updatedCards:
         charactersProgressBarText = "Downloading card images..."
         charactersProgressBar = st.progress(0, text=charactersProgressBarText)
         charactersProgressBar.text = charactersProgressBarText
-        characters = scrap(progressBar=charactersProgressBar, deleteFile=True, cardList=updatedCards)
+        characters = scrap(progressBar=charactersProgressBar, deleteFile=True, cardList=None)#, cardList=updatedCards)
 
         createCardsProgressBarText = "Writing cards..."
         createCardsProgressBar = st.progress(0, text=createCardsProgressBarText)
